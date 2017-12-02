@@ -213,7 +213,7 @@ main = do
     putStrLn $ "2. Give a set of clues, and have the solver find the solution for you"
     putStrLn $ "3. Exit"
     choice <- getLine
-    if(choice == "1" || choice == "2") then (startup choice)  else (putStrLn $ "woof! bark! ruff!")
+    if(choice == "1" || choice == "2") then (startup choice)  else (putStrLn $ "Exiting...")
 
 
 
